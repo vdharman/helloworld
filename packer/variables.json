@@ -1,0 +1,8 @@
+{
+    "resource_group_name": "rg-hello-world",
+    "image_name": "windows_web_server_image",
+    "client_id": "e94b27bd-7e35-479c-af51-c25b578f1212",
+    "client_secret": "u_E.~SQ60bavSLXDYxivoGIR0Eoi1vf-9f",
+    "tenant_id": "a7886ee5-4e1e-45d4-8781-f8be94a82f0f",
+    "subscription_id": "d11b7d92-103f-47fb-b66a-a7ef0f88258b"
+}

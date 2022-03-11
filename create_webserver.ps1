@@ -1,0 +1,2 @@
+
+./create_vm.ps1 -resource_group_name 'rg-hello-world' -location 'australiaeast' -vnet_name 'vnet_web_server' -subnet_name 'subnet_frontend'  -public_ip 'pip_web_server' -vm_name 'vmwebserver' -vm_image_name 'windows_web_server_image'
