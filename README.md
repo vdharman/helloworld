@@ -18,3 +18,7 @@
 4. Run webserver_health_check.ps1 to check the health of the server
    eg:
    ./webserver_health_check.ps1 -web_server_ip <enter the IP address obtained from step 1>
+
+I created a Azure pipeline and put everything in pipeline to execute using service principle 
+
+eg: az ad sp create-for-rbac --name 'SPN-HELLO-WORLD'  --role="Owner" --scopes  /subscriptions/<my sub id>/resourceGroups/rg-hello-world
