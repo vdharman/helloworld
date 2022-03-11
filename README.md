@@ -21,4 +21,4 @@
 
 I created a Azure pipeline and put everything in pipeline to execute using service principle 
 
-eg: az ad sp create-for-rbac --name 'SPN-HELLO-WORLD'  --role="Owner" --scopes  /subscriptions/<my sub id>/resourceGroups/rg-hello-world
+eg: az ad sp create-for-rbac --name 'SPN-HELLO-WORLD'  --role="Owner" --scopes  /subscriptions/mysubid/resourceGroups/rg-hello-world
